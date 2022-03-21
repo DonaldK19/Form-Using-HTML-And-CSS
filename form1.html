@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="parent">
+        <div class="child">
+            <div class="heading">
+                <h1>Create Account</h1>
+            </div>
+
+            <form action="appwrk">
+
+                <div class="container1">
+
+                    <div class="c1">
+                        <label>First Name</label><br>
+                        <input type="text" class="form-control" id="firstname" placeholder="Enter Your First Name"><br>
+                    </div>
+
+                    <div class="c2">
+                        <label>Last Name</label><br>
+                        <input type="text" class="form-control" id="lastname" placeholder="Enter Your Last Name"><br>
+                    </div>
+
+                </div>
+
+                <div class="container2">
+                    <label>Email</label><br>
+                    <input type="email" Class="form-control" id="email" placeholder="Enter Your Email"><br>
+                </div>
+
+                <div class="container1">
+
+                    <div class="c1">
+                        <label>Password</label><br>
+                        <input type="password" Class="form-control" id="password" placeholder="Enter Your Password"><br>
+                    </div>
+
+                    <div class="c2">
+                        <label>Confirm Password</label><br>
+                        <input type="password" Class="form-control" id="confirm password" placeholder="Enter Your Password Again"><br>
+                    </div>
+                </div>
+
+                <div class="container1">
+                    <div class="c1">
+                        <label>Gender</label>
+
+
+                        <div class="container4">
+                        <div class="c3">
+                            <input type="radio" id="Gender1" name="Male" value="Male">
+                            <label for="Gender1" class="black">Male</label>
+                        </div>
+
+                        <div class="c3">
+                            <input type="radio" id="Gender2" name="Male" value="Female">
+                            <label for="Gender2" class="black">Female</label><br>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="c2">
+                        <label>Hobbies</label><br>
+
+                        <div class="container5">
+                        <div class="c3">
+                            <input type="checkbox" id="Hobbies1" name="Hobbies1" value="Music">
+                            <label for="Hobbies1" class="black">Music</label>
+                        </div>
+
+                        <div class="c3">
+                            <input type="checkbox" id="Hobbies2" name="Hobbies2" value="Sports">
+                            <label for="Hobbies2" class="black">Sports</label>
+                        </div>
+
+                        <div class="c3">
+                            <input type="checkbox" id="Hobbies3" name="Hobbies3" value="Travel">
+                            <label for="Hobbies2" class="black">Travel</label>
+                        </div>
+
+                        <div class="c3">
+                            <input type="checkbox" id="Hobbies4" name="Hobbies4" value="Movies">
+                            <label for="Hobbies4" class="black">Movies</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="container1">
+                    <div class="c1">
+                        <label>Source Of Income</label><br>
+                        <select>
+                            <option value="Employed">Employed</option>
+                            <option value="Business">Business</option>
+                            <option value="Self Employed">Self Employed</option>
+                            <option value="Government Job">Government Job</option>
+                            <option value="Private Job">Private Job</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="c2">
+                        <input type="range" value="0" max="200000" oninput="num.value = this.value">
+                        <output id="num">0</output>K<br>
+                    </div>
+                </div>
+
+                <div class="container1">
+                    <div class="c1">
+                        <label>Upload Profile Photo</label><br>
+                        <input type="file" id="img" name="img" accept="image/*">
+                    </div>
+
+                    <div class="c2">
+                        <label>Age</label><br>
+                        <input type="text" placeholder="Enter Your Age"><br>
+                    </div>
+                </div>
+
+                <div class="container3">
+                    <label>Bio</label><br>
+                    <textarea name="" id="text" cols="30" rows="3"></textarea><br>
+                </div>
+
+                <div class="footer">
+                    <button name="Button" type="submit">Create</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
